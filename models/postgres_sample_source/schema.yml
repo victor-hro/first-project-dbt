@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: postgres_sample_source
+    description: 'um exemplo de provider de dados'
+    database: erp_oltp
+    schema: public
+    tables:
+      - name: clientes
+        description: 'Clientes do ERP'
